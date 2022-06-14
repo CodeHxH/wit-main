@@ -19,9 +19,10 @@
 		<!-- Custom css -->
 		<link rel='stylesheet' href='/css/main.css' />
 		<link rel='stylesheet' href='/css/normalize.css' />
-		{{! AOS }}
+		{{! AOS - Animate On Scroll Library }}
 		<link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css' />
-		{{! Animate.css }}
+		{{! Slick.css }}
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		{{! Bootstrap icons }}
 		<link
 			rel='stylesheet'
@@ -29,9 +30,16 @@
 		/>
 	</head>
 	<body>
+
 		{{>nav}}
 
 		{{{body}}}
+
+		{{! Slick js }}
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		{{! Static Javascript }}
+		<script type="text/javascript" src="/js/main.js"></script>
 
 	</body>
 </html>
