@@ -1,11 +1,35 @@
 <html lang='en'>
 	<head>
+		<!-- Head -->
 		<meta charset='UTF-8' />
-		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
 		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-		<title>Document</title>
+		<meta name='robots' content='index,follow' />
+		<meta name='author' content='Witsite, servicios digitales c.a' />
+		<meta name='copyright' content='Witsite, servicios digitales' />
+		<meta
+			name='description'
+			content='Witsite es una empresa que se dedica a crear sitios web, aplicaciones, tiendas virtuales o cualquier tipo de software orientado a sistematizar procesos y resolver problemas.'
+		/>
+		<meta
+			name='keywords'
+			content='website, witsite, páginas web, aplicaciones, desarrollo, sitios web, creación, software, en Ciudad Bolívar, en Venezuela, empresa, negocio'
+		/>
+		<link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+		<title>Witsite</title>
+		<!-- Custom css -->
+		<link rel='stylesheet' href='/css/main.css' />
+		<link rel='stylesheet' href='/css/normalize.css' />
+		{{! AOS }}
+		<link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css' />
+		{{! Animate.css }}
+		{{! Bootstrap icons }}
+		<link
+			rel='stylesheet'
+			href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css'
+		/>
 	</head>
 	<body>
+		{{>nav}}
 
 		{{{body}}}
 
