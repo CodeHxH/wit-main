@@ -10,3 +10,6 @@ $(document).ready(function () {
 		autoplaySpeed: 2000,
 	});
 });
+
+// Initializing AOS scroll library
+AOS.init();

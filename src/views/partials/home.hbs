@@ -1,0 +1,29 @@
+<section class='home'>
+
+	<h2>Proyectos destacados</h2>
+	<article class='home__projects'>
+
+		{{! Project card }}
+		{{#each projects}}
+			<a
+				href='{{link}}'
+				target='_blank'
+				rel='noopener noreferrer'
+				class='project-card'
+				data-aos='fade-up'
+			>
+				<img src='{{img}}' alt='' />
+				<div class='project-card__footer'>
+					<h3>{{name}}</h3>
+					<p>{{type}}</p>
+				</div>
+			</a>
+		{{/each}}
+
+	</article>
+
+	<h2>Servicios y promociones</h2>
+	<article class='home__services'>
+
+	</article>
+</section>
