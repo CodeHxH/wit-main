@@ -1,0 +1,35 @@
+.footer {
+	background-color: #000;
+	width: 100vw;
+	height: 100px;
+	padding: 10px 0;
+
+	* {
+		color: #fff;
+	}
+
+	.footer__links {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+
+		li {
+			margin-right: 15px;
+
+			i {
+				font-size: 27px;
+			}
+		}
+
+		li:hover {
+			i {
+				color: #20ffda;
+			}
+		}
+	}
+
+	footer {
+		width: 100%;
+		text-align: center;
+	}
+}
