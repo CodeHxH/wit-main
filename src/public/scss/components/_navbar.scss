@@ -1,0 +1,23 @@
+nav {
+	background-color: #fff;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	position: relative;
+	z-index: 2;
+
+	.nav__icon {
+		margin-right: 30px;
+	}
+
+	// Navbar Links
+	ul {
+		display: flex;
+
+		li {
+			margin-left: 70px;
+		}
+	}
+}

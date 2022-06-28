@@ -1,0 +1,44 @@
+// Global styles
+* {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 17;
+	color: #000;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+// Links
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+// Buttons
+.btn {
+	height: 40px;
+	width: 124px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 2px #fff;
+	transition: 0.5s;
+	cursor: pointer;
+
+	a {
+		color: #fff;
+		font-weight: 700;
+	}
+}
+
+.btn:hover {
+	background-color: #fff;
+
+	a {
+		color: #000;
+	}
+}

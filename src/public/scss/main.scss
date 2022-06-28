@@ -1,0 +1,17 @@
+// Fonts
+@font-face {
+	font-family: 'Nunito Sans';
+	src: url('/fonts/NunitoSans-Regular.ttf') format('ttf'),
+		url('/fonts/NunitoSans-SemiBold.ttf') format('ttf'),
+		url('/fonts/NunitoSans-Bold.ttf') format('ttf'),
+		url('/fonts/NunitoSans-ExtraBold.ttf') format('ttf');
+}
+
+// Components
+@import './components/global';
+@import './components/navbar';
+@import './components/index';
+@import './components/contact';
+@import './components/home';
+@import './components/footer';
+@import './components/responsive';

@@ -1,4 +1,5 @@
 const express = require('express');
+const handlebars = require('handlebars');
 const path = require('path');
 const { engine } = require('express-handlebars');
 const morgan = require('morgan');
@@ -16,7 +17,7 @@ app.engine(
 		layoutsDir: path.join(app.get('views'), 'layouts'),
 		partialsDir: path.join(app.get('views'), 'partials'),
 		extname: '.hbs',
-		//handlebars: handlebars,
+		handlebars: handlebars,
 	})
 );
 app.set('view engine', '.hbs');
