@@ -8,6 +8,26 @@ $(document).ready(function () {
 		accessibility: false,
 		arrows: false,
 		autoplaySpeed: 2000,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 6,
+				},
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 4,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
+				},
+			},
+		],
 	});
 });
 
