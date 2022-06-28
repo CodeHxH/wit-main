@@ -2,29 +2,29 @@ const router = require('express').Router();
 
 const projects = [
 	{
-		name: 'Paripi store',
-		type: 'Tienda',
-		img: '/img/imagen1.png',
+		name: 'Wit Store',
+		type: 'E-commerce',
+		img: '/img/imagen1.jpg',
 		lastUpdate: '13/6/2022',
 		link: 'https://witsite.onrender.com/',
 	},
 	{
-		name: 'Paripi store',
-		type: 'web',
+		name: 'E3 2021',
+		type: 'Web',
 		img: '/img/imagen2.png',
 		lastUpdate: '13/6/2022',
 		link: 'https://witsite.onrender.com/',
 	},
 	{
-		name: 'Paripi store',
-		type: 'Tienda',
+		name: 'Photo Album',
+		type: 'Gallery',
 		img: '/img/imagen3.png',
 		lastUpdate: '13/6/2022',
 		link: 'https://witsite.onrender.com/',
 	},
 	{
-		name: 'Paripi store',
-		type: 'Tienda',
+		name: 'Notes App',
+		type: 'Aplication',
 		img: '/img/imagen4.png',
 		lastUpdate: '13/6/2022',
 		link: 'https://witsite.onrender.com/',
